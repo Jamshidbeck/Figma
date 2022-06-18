@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 80px 0 80px;
+}
+
+.nav_logo{
+    padding-top: 40px;
+    padding-right: 485px;
+}
+
+.nav_links{
+    padding-top: 48px;
+}
+
+.nav_links a{
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.nav_links a:hover{
+    font-weight: bold;
+}
+
+.nav_button{
+    padding-top: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_button img{
+    /* padding-top: 47px; */
+    padding-left: 41px;
+    padding-right: 20px;
+}
+
+.nav_button button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #100F2E;
+    margin-bottom: -20px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 10px 20px;
+    margin-top: -15px;
+}
+
+.nav_button button:hover{
+    color: aqua;
+    background: #000000;
+}
+
+/* ============================ SECTION 2 ======================= */
+
+.Section2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px 0 80px;
+}
+
+.Section1_top{
+    display: flex;
+}
+
+.S2top_left{
+    display: flex;
+    flex-direction: column;
+}
+
+.S2top_left p{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+    color: #000000;
+    width: 646px;
+}
+
+.S2top_left span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #555555;
+    width: 470px;
+    padding-top: 30px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 38px rgba(0, 34, 19, 0.04);
+    border-radius: 20px;
+}
+
+form :nth-child(1){
+    background: #FAFAFA;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #222222;
+    border: none;
+    width: 218px;
+    height: 50px;
+    margin-right: 24px;
+    padding-left: 20px;
+}
+
+form :nth-child(2){
+    background: #FAFAFA;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #222222;
+    border: none;
+    width: 218px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+form :nth-child(3){
+    background: #FAFAFA;
+    border-radius: 8px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    color: #222222;
+    border: none;
+    width: 405px;
+    height: 56px;
+    padding-left: 20px;
+}
+
+.S2_square{
+    width: 56px;
+    height: 56px;
+    background: #3771C8;;
+    display: flex;
+    border-radius: 5px;
+}
+
+.S2_square img{
+    width: 18px;
+    height: 18px;
+}
+
+.Section2_bottom{
+    display: flex;
+    padding-top: 40px;
+}
+
+.S2bottom_left{
+    position: relative;
+}
+
+.S2bottom_left p{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.S2bottom_right{
+    padding-left: 16px;
+}
+
+.S2bottom_right :nth-child(1){
+    padding-bottom: 11px;
+}
+
+/* =========================== SECTION 3 ===========================*/
+
+.Section3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 80px 0 80px;
+}
+
+.Section3 h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.S3_middle{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+
+.S3_middle span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    width: 570px;
+}
+
+.S3_bottom{
+    padding-top: 41px;
+    display: flex;
+}
+
+.S3_box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin: 0 11px 0 11px;
+}
+
+.S3_box1 img{
+    padding-top: 36px;
+    padding-bottom: 42px;
+}
+
+.S3_box1 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.S3_box1 span{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #666666;
+    padding-top: 12px;
+}
+
+/* ========================== SECTION 4 =================== */
+
+.Section4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 121px 80px 0 80px;
+}
+
+.Section4_left{
+    display: flex;
+    padding-right: 60px;
+}
+
+.Section4_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.Section4_right h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #222222;
+    width: 419px;
+}
+
+.Section4_right span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    padding-top: 20px;
+}
+
+.S4_boxs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: -40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.S4_box1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px 0 36px;
+}
+.S4_boxs h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.S4_boxs p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.Section4_right button{
+    background: #3771C8;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    width: 170px;
+    height: 60px;
+    border: none;
+}
+
+.Section4_right button:hover{
+    background: black;
+}
+
+/* ========================== SECTION 5 =================== */
+
+.Section5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 144px 186px 0 186px;
+    justify-content: space-between;
+}
+
+
+/* ========================= SECTION 6 =======================   */
+
+.Section6{
+    display: flex;
+    padding: 80px 80px 0 80px;
+}
+
+.Section6 img{
+    border-radius: 12px 12px 12px 12px;
+}
+
+.S6_right{
+    display: flex;
+    flex-direction: column;
+    background: #F9D15C;
+    border-radius: 12px; 
+    align-items: center;
+    text-align: center; 
+}
+
+.S6_right img{
+    width: 62px;
+    height: 64px;
+    margin-top: 42px;
+}
+
+.S6_right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    padding-top: 8px;
+}
+
+.S6_right span{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    padding-top: 23px;
+}
